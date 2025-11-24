@@ -16,7 +16,8 @@ button{
     padding: 10px;
     border-radius: 5px;
     background-color: transparent;
-    border: solid rgb(255, 255, 255, 0.5);
+    border: solid 0.5px rgba(255, 255, 255, 0.05);
+    cursor: pointer;
 }
 
 .logo{
@@ -33,7 +34,7 @@ button span{
 }
 
 button:hover{
-    background-color: rgb(255, 255, 255, 0.5);
+    background-color: rgba(180, 180, 180, 0.05);
 }
 .history{
     margin: 10px;
@@ -49,4 +50,17 @@ button:hover{
     font-size: 14px;
     border: solid 10px transparent;
     position: relative;
+}
+
+.history li:hover{
+    background-color: rgba(180, 180, 180, 0.5);
+    border-radius: 10px;
+}
+
+.sign{
+    padding: 10px;
+    margin: 10px;
+    font-size: 14px;
+    text-align: center;
+    border-top: solid 0.25px rgba(255, 255, 255, 0.5);
 }
