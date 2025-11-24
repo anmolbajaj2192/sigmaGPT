@@ -1,9 +1,12 @@
 import "./ChatWindow.css";
 
 function ChatWindow(){
-    return{
-
-    }
+    return(
+        <div>
+            ChatWindow
+        </div>
+    )
 }
+
 
 export default ChatWindow;
