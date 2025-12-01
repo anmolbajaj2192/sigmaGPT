@@ -21,7 +21,7 @@ function ChatWindow(){
                     </div>
                 </div>
                 <p className="info">
-                    SigmaGPT can make mistakes. Check important info. See cookie preferences.
+                    SigmaGPT can make mistakes. Check important info. See your cookie preferences.
                 </p>
             </div>
         </div>
