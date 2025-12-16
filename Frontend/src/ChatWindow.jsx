@@ -5,19 +5,19 @@ function ChatWindow(){
     return(
         <div className="chatWindow">
             <div className="navbar">
-                <span>SigmaGPT <i class="fa-solid fa-chevron-down"></i></span>
+                <span>SigmaGPT <i className="fa-solid fa-chevron-down"></i></span>
                 <div className="userIconDiv">
-                    <span className="userIcon"><i class="fa-solid fa-user"></i></span>
+                    <span className="userIcon"><i className="fa-solid fa-user"></i></span>
                 </div>
                 
             </div>
             <Chat>
             </Chat>
-            <div className="chat Input">
+            <div className="chatInput">
                 <div className="inputBox">
                     <input type="text" placeholder="Ask Anything"/>
                     <div id="submit">
-                        <i class="fa-solid fa-paper-plane"></i>
+                        <i className="fa-solid fa-paper-plane"></i>
                     </div>
                 </div>
                 <p className="info">
