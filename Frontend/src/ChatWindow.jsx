@@ -11,8 +11,8 @@ function ChatWindow(){
                 </div>
                 
             </div>
-            <Chat>
-            </Chat>
+            {/* <Chat>
+            </Chat> */}
             <div className="chatInput">
                 <div className="inputBox">
                     <input type="text" placeholder="Ask Anything"/>
